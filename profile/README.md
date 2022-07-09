@@ -12,5 +12,6 @@ The concept of "**Kipple**" comes from the [Philip K. Dick](https://en.wikipedia
 
 > No one can win against kipple, except temporarily and maybe in one spot,[...] It's a universal principle operating throughout the universe; the entire universe is moving toward a final state of total, absolute kippleization.
 
-With every new project, we write a lot of the same boilerplate code again and again, and it piles up quickly. It's not _useless_ code, but it's usually fairly simple solutions repeated over and over per-project, the kind that aren't worth templating or pulling in a third-party dependency for.
+With every new project, we write a lot of the same boilerplate code again and again, and it piles up quickly. It's not _useless_ code, but it's usually fairly simple solutions repeated over and over per-project that never warrant pulling in bloated third-party dependencies.
 
+The goal is for Kipple to become a one-stop shop for lightweight, _temporary_ dependencies and discoverable solutions.
