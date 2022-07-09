@@ -1,4 +1,4 @@
-## swift-kipple
+## Kipple
 
 **Kipple** is a collection of Swift packages and plugins providing common Swift functionality for getting your projects off the ground, with the hope of doubling as a discovery resource for the implementation of real-world product development concepts such as: analytics, diagnostics, crash reporting, ci/cd, push notifications, and more.
 
