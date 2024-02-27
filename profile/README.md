@@ -15,7 +15,7 @@
 
 ### Compatibility
 
-**Swift Versions**: Packages will always support a minimum of all versions of Swift bundled with the two most recent major versions of Xcode. (Example: At time of writing, Xcode 15.2 is currently out, so Kipple supports macOS 14.0 and up, which means that Swift 5.7 is the minimum version for all packages.) See [swiftversion.net](https://swiftversion.net/) for a reference of Swift and Xcode versions.
+**Swift Versions**: Packages will always support a minimum of all versions of Swift bundled with the two most recent major versions of Xcode. (Example: At time of writing, Xcode 15.2 is currently out, so Kipple supports Xcode 14.0 and up, which means that Swift 5.7 is the minimum version for all packages.) See [swiftversion.net](https://swiftversion.net/) for a reference of Swift and Xcode versions.
 
 **Platforms**: All packages are meant to be platform-agnostic and run everywhere that Swift can run, with few exceptions such as a package like [KippleUI](https://github.com/swift-kipple/KippleUI) which is closely tied to Apple platform SDKs (SwiftUI, UIKit, AppKit, etc.), so there is no consideration for Linux, Windows, or Android and the packages will fail to build on those platforms.
 
