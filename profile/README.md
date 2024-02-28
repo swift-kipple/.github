@@ -1,19 +1,26 @@
-## Kipple
+# Kipple
 
 **Kipple** is a collection of Swift packages providing common Swift functionality for rapid prototyping, quick reference, education, discovery, and personal use, covering concepts from logging to error handling to running Swift excutables and more.
 
-### Overview
+## Packages
+
+### Active
 
 | Repository | Tests | Version | Swift | Platforms |
 | ---------- | ----- | ------- | ----- | --------- |
 | [KippleCore](https://github.com/swift-kipple/Core) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/Core/tests.yml?branch=main&label=)](https://github.com/swift-kipple/Core/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/Core?color=blue&label=)](https://github.com/swift-kipple/Core/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FCore%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Core) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FCore%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Core) |
-| [KippleDiagnostics](https://github.com/swift-kipple/Diagnostics) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/Diagnostics/tests.yml?branch=main&label=)](https://github.com/swift-kipple/Diagnostics/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/Diagnostics?color=blue&label=)](https://github.com/swift-kipple/Diagnostics/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FDiagnostics%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Diagnostics) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FDiagnostics%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Diagnostics) |
 | [KippleNetworking](https://github.com/swift-kipple/Networking) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/Networking/tests.yml?branch=main&label=)](https://github.com/swift-kipple/Networking/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/Networking?color=blue&label=)](https://github.com/swift-kipple/Networking/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FNetworking%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Networking) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FNetworking%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Networking) |
 | [KipplePlugins](https://github.com/swift-kipple/Plugins) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/Plugins/tests.yml?branch=main&label=)](https://github.com/swift-kipple/Plugins/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/Plugins?color=blue&label=)](https://github.com/swift-kipple/Plugins/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FPlugins%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Plugins) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FPlugins%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Plugins) |
 | [KippleTools](https://github.com/swift-kipple/Tools) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/Tools/tests.yml?branch=main&label=)](https://github.com/swift-kipple/Tools/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/Tools?color=blue&label=)](https://github.com/swift-kipple/Tools/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FTools%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Tools) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FTools%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Tools) |
 | [KippleUI](https://github.com/swift-kipple/UI) | [![](https://img.shields.io/github/actions/workflow/status/swift-kipple/UI/tests.yml?branch=main&label=)](https://github.com/swift-kipple/UI/actions/workflows/tests.yml) | [![](https://img.shields.io/github/v/tag/swift-kipple/UI?color=blue&label=)](https://github.com/swift-kipple/UI/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FUI%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/UI) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FUI%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/UI) |
 
-### Compatibility
+### Deprecated
+
+| Repository | Version | Swift | Platforms | Deprecation Notice |
+| ---------- | ------- | ----- | --------- | ------------------ |
+| [KippleDiagnostics](https://github.com/swift-kipple/Diagnostics/README.md) | [![](https://img.shields.io/github/v/tag/swift-kipple/Diagnostics?color=blue&label=)](https://github.com/swift-kipple/Diagnostics/tags) | [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FDiagnostics%2Fbadge%3Ftype%3Dswift-versions&label=)](https://swiftpackageindex.com/swift-kipple/Diagnostics) |  [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswift-kipple%2FDiagnostics%2Fbadge%3Ftype%3Dplatforms&label=)](https://swiftpackageindex.com/swift-kipple/Diagnostics) | See [README](https://github.com/swift-kipple/Diagnostics/blob/main/README.md). |
+
+## Compatibility
 
 **Swift Versions**: Packages will always support a minimum of all versions of Swift bundled with the two most recent major versions of Xcode. (Example: At time of writing, Xcode 15.2 is currently out, so Kipple supports Xcode 14.0 and up, which means that Swift 5.7 is the minimum version for all packages.) See [swiftversion.net](https://swiftversion.net/) for a reference of Swift and Xcode versions.
 
@@ -23,13 +30,13 @@
 
 **Package Managers**: Given that these projects are largely for reference and education and not intended to be directly depended upon, Kipple packages only support [Swift Package Manager](https://github.com/apple/swift-package-manager) for ease of maintenance.
 
-### Maintenance
+## Maintenance
 
 Kipple is **inactively maintained**, meaning that updates are made to the packages above as needed, whether to squash bugs, remove outdated content, update Swift and platform compatibilities, or include new content for educational purposes.
 
 Additionally, I will make an effort to address any and all Issues and Pull Requests that are opened into my repository as thanks for your help in improving the stability for these packages and therefore my own (and others') applications. **If you don't receive a timely response from me on an Issue or Pull Request**, please don't hesitate to ping me again.
 
-### Stability
+## Stability
 
 Every repository in this organization includes the following disclaimer:
 
@@ -42,7 +49,7 @@ An important note to package maintainers: **Please do not include these packages
 
 That said, I use all of these repositories in numerous applications and projects myself, many of them in production. I also leverage two CI reports (GitHub Actions and Swift Package Index) and try my best to cover core functionality with tests as much as possible.
 
-### What does "Kipple" mean?
+## What does "Kipple" mean?
 
 The concept of "**Kipple**" comes from the [Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick) book [Do Androids Dream of Electric Sheep?](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F).
 
